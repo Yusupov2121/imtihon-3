@@ -2063,18 +2063,23 @@ margin: 50px auto;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: -150px auto;
+  margin: 250px auto;
+  padding-bottom: 20px;
 }
 
 .apptitle {
-  max-width: 768px;
-  height: 130px;
+  max-width: 576px;
+  height: auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+margin-top: 12px;
+
 }
 
 .appdow_title {
-  width: 700px;
+  width: 350px;
+  height: auto;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
@@ -2083,15 +2088,16 @@ margin: 50px auto;
   text-align: center;
   color: #FFFFFF;
   margin: 0px auto;
+  display: block;
 }
 
 .btn_appdow {
-  margin: 0 auto;
+  margin: -40 auto;
 }
 
 .appdow_btn {
 
-  margin-top: 95px;
+  margin-top: 35px;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -2101,7 +2107,9 @@ margin: 50px auto;
   color: #2d76f9;
   padding: 24px 58px;
   border: none;
-  margin-right: 50px;
+  margin-right: 0px;
+  display: block;
+  margin: 20px auto;
 }
 
 .appdow_btn:hover {
@@ -2113,7 +2121,7 @@ margin: 50px auto;
 
 .dowapp {
   max-width: 250px;
-  margin-top: 195px;
+  margin-top: 95px;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -2123,6 +2131,8 @@ margin: 50px auto;
   color: #2d76f9;
   padding: 24px 58px;
   border: none;
+  margin: 50px auto;
+  display: block;
 }
 
 .dowapp:hover {
@@ -2137,21 +2147,22 @@ margin: 50px auto;
   max-width: 633px;
   min-height: 481px;
 border-radius: 0px;
+display: none;
 }
 
 
 .testi {
   
-  max-width: 1340px;
+  max-width: 576px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 150px auto;
+  margin: -150px auto;
   flex-direction: column;
 }
 .test_card-left {
   max-width: 700px;
-  min-height: 600px;
+  min-height: auto;
   background: #eef4ff;
   border-radius: 0px 00px 00px 0px;
 }
@@ -2663,6 +2674,241 @@ color: #747474;
     order: 1;
   
   }
+  
+.appdow {
+  max-width: 350px;
+  min-height: 469px;
+  background: #2d76f9;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-top: -150px;
+  background-image: url(../images/images/radius-four.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 250px auto;
+  padding-bottom: 20px;
+}
+
+.apptitle {
+  max-width: 576px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+margin-top: 12px;
+
+}
+
+.appdow_title {
+  width: 350px;
+  height: auto;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0px auto;
+  display: block;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+
+text-align: center;
+
+color: #FFFFFF;
+width: 276px;
+}
+
+.btn_appdow {
+  margin: -40 auto;
+}
+
+.appdow_btn {
+
+  margin-top: 35px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  background: #ffffff;
+  border-radius: 1500px;
+  color: #2d76f9;
+  padding: 24px 58px;
+  border: none;
+  margin-right: 0px;
+  display: block;
+  margin: 20px auto;
+  width: 250px;
+}
+
+.appdow_btn:hover {
+  background: #2d76f9;
+  border: 1.5px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.dowapp {
+  width: 250px;
+  margin-top: 95px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  background: #ffffff;
+  border-radius: 1500px;
+  color: #2d76f9;
+  padding: 24px 58px;
+  border: none;
+  margin: 25px auto;
+  display: block;
+}
+
+.dowapp:hover {
+  background: #2d76f9;
+  border: 1.5px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+.profile{
+  max-width: 633px;
+  min-height: 481px;
+border-radius: 0px;
+display: none;
+}
+
+
+.testi {
+  
+  max-width: 576px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -150px auto;
+  flex-direction: column;
+}
+.test_card-left {
+  max-width: 700px;
+  min-height: auto;
+  background: #eef4ff;
+  border-radius: 0px 00px 00px 0px;
+}
+.test_card-right {
+  max-width: 493px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 481px;
+}
+.test_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+  color: #212121;
+  text-align: center;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 40px;
+/* identical to box height, or 167% */
+
+
+color: #212121;
+
+}
+.min_test-right {
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+
+  flex-direction: row;
+}
+.min_titles {
+  margin-left: 30px;
+}
+.min_title_bold {
+  margin: 0 auto;
+  font-style: normal;
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+text-align: center;
+  color: #212121;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #212121;
+
+}
+.min_title_gray {
+  margin-top: 20px;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #747474;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #747474;
+}
+.test_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  margin-top: 50px;
+  color: #212121;
+  text-align: center;
+  width: 350px;
+height: 175px;
+left: 32px;
+top: 4901px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 36px;
+/* or 200% */
+
+
+color: #212121;
+}
+.img_test {
+  display: flex;
+  align-items: center;
+  margin-top: 58px;
+  gap: 35px;
+}
 }
 
 @media only screen and (max-width: 375px) {
@@ -3104,5 +3350,239 @@ color: #747474;
     order: 1;
 
   
+  }
+  .appdow {
+    max-width: 300px;
+    min-height: 469px;
+    background: #2d76f9;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: -150px;
+    background-image: url(../images/images/radius-four.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 250px auto;
+    padding-bottom: 20px;
+  }
+  
+  .apptitle {
+    max-width: 576px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  margin-top: 12px;
+  
+  }
+  
+  .appdow_title {
+    width: 350px;
+    height: auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px auto;
+    display: block;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+  width: 276px;
+  }
+  
+  .btn_appdow {
+    margin: -40 auto;
+  }
+  
+  .appdow_btn {
+  
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    background: #ffffff;
+    border-radius: 1500px;
+    color: #2d76f9;
+    padding: 24px 58px;
+    border: none;
+    margin-right: 0px;
+    display: block;
+    margin: 20px auto;
+    width: 250px;
+  }
+  
+  .appdow_btn:hover {
+    background: #2d76f9;
+    border: 1.5px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .dowapp {
+    width: 250px;
+    margin-top: 95px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    background: #ffffff;
+    border-radius: 1500px;
+    color: #2d76f9;
+    padding: 24px 58px;
+    border: none;
+    margin: 25px auto;
+    display: block;
+  }
+  
+  .dowapp:hover {
+    background: #2d76f9;
+    border: 1.5px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  
+  .profile{
+    max-width: 633px;
+    min-height: 481px;
+  border-radius: 0px;
+  display: none;
+  }
+  
+  
+  .testi {
+    
+    max-width: 576px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -150px auto;
+    flex-direction: column;
+  }
+  .test_card-left {
+    max-width: 700px;
+    min-height: auto;
+    background: #eef4ff;
+    border-radius: 0px 00px 00px 0px;
+  }
+  .test_card-right {
+    max-width: 493px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 481px;
+  }
+  .test_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 65px;
+    color: #212121;
+    text-align: center;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  /* identical to box height, or 167% */
+  
+  
+  color: #212121;
+  
+  }
+  .min_test-right {
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+  
+    flex-direction: row;
+  }
+  .min_titles {
+    margin-left: 30px;
+  }
+  .min_title_bold {
+    margin: 0 auto;
+    font-style: normal;
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+  text-align: center;
+    color: #212121;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  
+  color: #212121;
+  
+  }
+  .min_title_gray {
+    margin-top: 20px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+  
+    color: #747474;
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  
+  color: #747474;
+  }
+  .test_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    margin-top: 50px;
+    color: #212121;
+    text-align: center;
+    width: 350px;
+  height: 175px;
+  left: 32px;
+  top: 4901px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  /* or 200% */
+  
+  
+  color: #212121;
+  }
+  .img_test {
+    display: flex;
+    align-items: center;
+    margin-top: 58px;
+    gap: 35px;
   }
 }
