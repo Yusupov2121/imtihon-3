@@ -2052,8 +2052,8 @@ margin: 50px auto;
 
 }
 .appdow {
-  max-width: 768px;
-  min-height: 500px;
+  max-width: 576px;
+  min-height: auto;
   background: #2d76f9;
   border-radius: 50px;
   margin: 0 auto;
